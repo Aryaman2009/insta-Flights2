@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insta Flights</title>
+        <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lobster&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Licorice&family=Lobster&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body style="background-color: black; color:white;">
+        <center>
+            <h1 style='font-family: "Licorice", cursive;color:white;'>Insta</h1><h1 style = 'font-family: "Josefin Sans", sans-serif;color:white;'>Flights</h1>
+            <br>
+            <h2 id="name_dis" style="font-family: 'Bebas Neue', cursive;;color: white;"></h2><br>
+            <h2 style="font-family: 'Bebas Neue', cursive;color: white;">Select The Type</h2>
+            <select name="Type" id="type" class="form-control" style="height: 40px;">
+                <option value="Domestic">Domestic</option>
+                <option value="International">International</option>
+            </select>
+            <br>
+            <button class="btn btn-info" onclick="en()">Enter</button>
+            <br>
+            <div style="display: none;" id="do">
+                <h2 style="font-family: 'Bebas Neue', cursive;">Select Airlines</h2>
+                <span>
+                    <label>Indigo</label>&nbsp;
+                    <label>SpiceJet</label>&nbsp;
+                    <label>Air India</label>&nbsp;
+                    <label>Go Air</label>&nbsp;
+                    <label>Air Asia</label>
+                </span>
+                <br>
+                <span>
+                    <a href="https://www.goindigo.in/"><img src="images (1).png" style="width:50px;"></a>&nbsp;
+                    <a href="https://www.spicejet.com/"><img src="download (2).png" style="width:50px;height: 50px;"></a>&nbsp;
+                    <a href="https://www.airindia.in/"><img src="download (3).png" style="width:50px;height: 50px;"></a>&nbsp;
+                    <a href="https://www.flygofirst.com/"><img src="download (4).png" style="width:50px;height: 50px;"></a>&nbsp;
+                    <a href="https://www.airasia.co.in/home?gclid=Cj0KCQiAieWOBhCYARIsANcOw0xduPoER1EZZwAKWgdP2Yz8W-yP_vEaQI-bJ-zCaOIf-g6jz3dNYEMaAr3cEALw_wcB"><img src="download (5).png" style="width:50px;height: 50px;" ></a>&nbsp;
+                </span>
+                <br><br>
+            </div>
+            <div style="display: none;" id="in">
+                <h2 style="font-family: 'Bebas Neue', cursive;">Select Airlines</h2>
+                <span>
+                    <label>Quatar Airway</label>&nbsp;
+                    <label>British Airway</label>&nbsp;
+                    <label>Emirites </label>&nbsp;
+                </span>
+                <br>
+                <span>
+                    <a href='https://www.qatarairways.com/en-ca/homepage.html'><img src="download (7).png" style="width:50px;height: 50px;" ></a>&nbsp;
+                    <a href='https://www.britishairways.com/travel/home/public/en_in/'><img src="download (8).png" style="width:50px;height: 50px;" ></a>&nbsp;
+                    <a href='https://www.emirates.com/in/english/'><img src="download (9).png" style="width:50px;height: 50px;" ></a>&nbsp;
+                </span>
+                <br><br>
+            </div><br><br>
+        <button class="btn btn-danger" onclick="cf()">Cancel flights</button>
+        </center>
+    </body>
+    <script src="index2.js"></script>
+</html>
